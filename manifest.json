@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Salesforce Multi-Account Login",
+    "name": "SalesforceLoginCapture",
     "version": "1.0",
-    "description": "Allows quick login to Salesforce with multiple stored accounts.",
+    "description": "個人利用物です。公開しないでください。",
     "permissions": [
         "storage",
         "activeTab"
@@ -12,7 +12,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://*.salesforce.com/*"],
+            "matches": ["https://test.salesforce.com/*"],
             "js": ["content.js"]
         }
     ],

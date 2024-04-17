@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <title>Salesforce Login</title>
+    <meta charset="UTF-8">
+    <title>SalesforceLoginCapture</title>
 </head>
 <body>
-    <select id="accountSelect"></select>
-    <button id="loginButton">Login</button>
-    <script src="popup.js"></script>
+    <!-- ポップアップ画面 -->
+    <div style="width: 300px;height: 500px; border: 1px; background-color: aqua;">
+        <div style="padding: 2%; background-color: aquamarine;">
+            <!-- ヘッダー -->
+            <div style="background-color: whitesmoke; height: auto;padding: 1%; text-align: center; font-weight:bold;">
+                Salesforce Login Capture<個人開発物>
+            </div>
+            <!-- 中身 -->
+            <div style="padding: 2%; background-color:red">
+                <select id="accountSelect"></select>
+                <button id="loginButton">Login</button>
+                <script src="popup.js"></script>
+            </div>
+            <!-- フッター -->
+            <div>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
